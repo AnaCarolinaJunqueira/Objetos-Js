@@ -34,19 +34,42 @@
 //[] <--- Arrays
 //{} <--- Objetos
 
-const filme = {
-    nome: "Corra",
-    lancamento: 2017,
-    tomatometer: 98,
-    genero: "suspense"
-}
+//const filme = {
+//    nome: "Corra",
+//    lancamento: 2017,
+//    tomatometer: 98,
+//    genero: "suspense"
+//}
 
-console.log(filme.genero)
+//console.log(filme.genero)
 
 //adiciona propriedade
-filme.bilheteria = 300
-console.log(filme)
+//filme.bilheteria = 300
+//console.log(filme)
 
 //deleta propriedade
-delete filme.avaliação
-console.log(filme)
+//delete filme.avaliação
+//console.log(filme)
+
+//array de objetos
+
+const alunos = [
+    {
+        nome: "Luccas",
+        idade: 22,
+        cor: "Azul"
+    },
+    {
+        nome: "Kairo",
+        idade: 24,
+        cor: "Verde"
+    },
+    {
+        nome: "Ricardo",
+        idade: 47,
+        cor: "Vermelho"
+    }
+]
+
+console.log(alunos[0].nome)
+
