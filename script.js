@@ -78,3 +78,6 @@ console.log(alunos)
 
 alunos.push({nome: "Marina", idade: 25, cor: "Amarelo"})
 console.log(alunos)
+
+delete alunos[0]
+console.log(alunos)
