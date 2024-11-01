@@ -73,3 +73,8 @@ const alunos = [
 
 console.log(alunos[0].nome)
 
+alunos[1].cidade = "Salvador"
+console.log(alunos)
+
+alunos.push({nome: "Marina", idade: 25, cor: "Amarelo"})
+console.log(alunos)
